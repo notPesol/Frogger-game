@@ -1,0 +1,92 @@
+body{
+  text-align: center;
+}
+
+.grid{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid;
+  width: 800px;
+  height: 800px;
+}
+
+.grid div {
+  width: 11.11111111111111%;
+  height: 11.11111111111111%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .grid{
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .grid{
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid{
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .grid{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .grid{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ending-block{
+  background-color: red;
+}
+
+.starting-block {
+  background-color: blue;
+}
+
+.c1 {
+  background-color: black;
+}
+
+.c2, .c3{
+  background-color: gray;
+}
+
+.l1, .l2, .l3{
+  background-color: brown;
+}
+
+.l4, .l5 {
+  background-color: lightblue;
+}
+
+.frog {
+  background-color: green;
+}
